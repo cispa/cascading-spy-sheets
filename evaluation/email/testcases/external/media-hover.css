@@ -1,0 +1,10 @@
+@media (hover: none) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-hover-external);
+  }
+}
+@media (hover: hover) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-hover-external);
+  }
+}

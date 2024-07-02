@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        background-color: brown;
+      }
+      body {
+/* Leak device pixels per CSS pixel */
+background-image: -webkit-image-set(url("/leak/1") 1x, url("/leak/2") 2x, url("/leak/3") 3x);
+
+/* Leak support for image formats: https://caniuse.com/?search=image%20format */
+background-image: -webkit-image-set(url("/leak/safari") type("image/heif"), url("/leak/notsafari") type("image/jpeg"));
+
+/* Leak DPI of screen */
+background-image: -webkit-image-set(url("/leak/96") 96dpi, url("/leak/252") 252dpi);      }
+    </style>
+  </head>
+  <body></body>
+</html>

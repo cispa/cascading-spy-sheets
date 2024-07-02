@@ -1,0 +1,5 @@
+@media (min-width: calc(10000000px * 0)) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-width-calc-external);
+  }
+}

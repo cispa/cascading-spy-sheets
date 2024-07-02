@@ -1,0 +1,16 @@
+beautifulsoup4==4.12.3
+certifi==2024.6.2
+charset-normalizer==3.3.2
+css-inline==0.14.1
+cssutils==2.11.1
+data_url==1.0.7
+eml-parser==1.17.5
+filetype==1.2.0
+idna==3.7
+more-itertools==10.3.0
+publicsuffixlist==1.0.1.20240625
+python-dateutil==2.9.0.post0
+requests==2.32.3
+six==1.16.0
+soupsieve==2.5
+urllib3==2.2.2

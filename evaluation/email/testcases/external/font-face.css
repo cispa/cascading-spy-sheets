@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "CustomFamily";
+    src:
+      url("https://example.com/XPLACEHOLDERX/font-face-external");
+  }
+  td {
+    font-family: "CustomFamily";
+  }

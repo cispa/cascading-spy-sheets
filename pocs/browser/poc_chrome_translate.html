@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Translations</title>
+    <style>
+        p {
+            width: fit-content;
+        }
+
+        .wrapper {
+            width: fit-content;
+        }
+
+        .container {
+            container-type: inline-size;
+        }
+
+        #en {
+            display: block;
+        }
+        #ca {
+            display: none;
+        }
+        #de {
+            display: none;
+        }
+
+        @container (width < 420px) {
+            #ca {
+                display: block;
+            }
+            #de {
+                display: none;
+            }
+            #en {
+                display: none;
+            }
+        }
+
+        @container (width < 380px) {
+            #de {
+                display: block;
+            }
+            #ca {
+                display: none;
+            }
+            #en {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <code>Please translate to German or Catalan using the Translate feature built into Google Chrome.</code>
+    <div class="wrapper">
+        <p>I can understand the words used by my grandfather and like coffee.</p>
+        <div class="container">
+            <code id="en">English</code>
+            <code id="de">German</code>
+            <code id="ca">Catalan</code>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1853 @@
+{
+    "https://google.com": {
+        "requestCount": 26,
+        "responseCount": 25,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 755787,
+        "navigationDuration": 1083,
+        "resourceDuration": 102,
+        "fcp": 605
+    },
+    "https://facebook.com": {
+        "requestCount": 53,
+        "responseCount": 53,
+        "accumulatedRequestBodySize": 1018,
+        "accumulatedResposeBodySize": 655954,
+        "navigationDuration": 692,
+        "resourceDuration": 108,
+        "fcp": 563
+    },
+    "https://microsoft.com": {
+        "requestCount": 87,
+        "responseCount": 82,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 881352,
+        "navigationDuration": 1716,
+        "resourceDuration": 44,
+        "fcp": 1155
+    },
+    "https://apple.com": {
+        "requestCount": 30,
+        "responseCount": 30,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 4166657,
+        "navigationDuration": 669,
+        "resourceDuration": 23,
+        "fcp": 421
+    },
+    "https://youtube.com": {
+        "requestCount": 140,
+        "responseCount": 140,
+        "accumulatedRequestBodySize": 8651,
+        "accumulatedResposeBodySize": 2945212,
+        "navigationDuration": 3451,
+        "resourceDuration": 26,
+        "fcp": 1260
+    },
+    "https://twitter.com": {
+        "requestCount": 62,
+        "responseCount": 54,
+        "accumulatedRequestBodySize": 1894,
+        "accumulatedResposeBodySize": 2046528,
+        "navigationDuration": 803,
+        "resourceDuration": 124,
+        "fcp": 346
+    },
+    "https://instagram.com": {
+        "requestCount": 36,
+        "responseCount": 22,
+        "accumulatedRequestBodySize": 15456,
+        "accumulatedResposeBodySize": 1562459,
+        "navigationDuration": 673,
+        "resourceDuration": 147,
+        "fcp": 399
+    },
+    "https://azure.com": {
+        "requestCount": 143,
+        "responseCount": 142,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 50927743,
+        "navigationDuration": 2021,
+        "resourceDuration": 123,
+        "fcp": 1613
+    },
+    "https://cloudflare.com": {
+        "requestCount": 24,
+        "responseCount": 20,
+        "accumulatedRequestBodySize": 3924,
+        "accumulatedResposeBodySize": 309408,
+        "navigationDuration": 492,
+        "resourceDuration": 146,
+        "fcp": 313
+    },
+    "https://live.com": {
+        "requestCount": 60,
+        "responseCount": 57,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1060271,
+        "navigationDuration": 1438,
+        "resourceDuration": 81,
+        "fcp": 933
+    },
+    "https://linkedin.com": {
+        "requestCount": 44,
+        "responseCount": 26,
+        "accumulatedRequestBodySize": 92,
+        "accumulatedResposeBodySize": 36533,
+        "navigationDuration": 818,
+        "fcp": 715
+    },
+    "https://office.com": {
+        "requestCount": 47,
+        "responseCount": 46,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 12380102,
+        "navigationDuration": 687,
+        "resourceDuration": 122,
+        "fcp": 392
+    },
+    "https://doubleclick.net": {
+        "requestCount": 38,
+        "responseCount": 35,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 784374,
+        "navigationDuration": 840,
+        "resourceDuration": 56,
+        "fcp": 477
+    },
+    "https://netflix.com": {
+        "requestCount": 31,
+        "responseCount": 30,
+        "accumulatedRequestBodySize": 1327,
+        "accumulatedResposeBodySize": 2196003,
+        "navigationDuration": 1432,
+        "resourceDuration": 53,
+        "fcp": 1125
+    },
+    "https://fbcdn.net": {
+        "requestCount": 53,
+        "responseCount": 52,
+        "accumulatedRequestBodySize": 1018,
+        "accumulatedResposeBodySize": 655954,
+        "navigationDuration": 709,
+        "resourceDuration": 89,
+        "fcp": 597
+    },
+    "https://amazon.com": {
+        "requestCount": 241,
+        "responseCount": 224,
+        "accumulatedRequestBodySize": 64778,
+        "accumulatedResposeBodySize": 3389071,
+        "navigationDuration": 1554,
+        "resourceDuration": 91,
+        "fcp": 931
+    },
+    "https://wikipedia.org": {
+        "requestCount": 9,
+        "responseCount": 9,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 66305,
+        "navigationDuration": 380,
+        "resourceDuration": 41,
+        "fcp": 367
+    },
+    "https://fastly.net": {
+        "requestCount": 59,
+        "responseCount": 54,
+        "accumulatedRequestBodySize": 263,
+        "accumulatedResposeBodySize": 1389225,
+        "navigationDuration": 609,
+        "resourceDuration": 25,
+        "fcp": 316
+    },
+    "https://bing.com": {
+        "requestCount": 11,
+        "responseCount": 6,
+        "accumulatedRequestBodySize": 344,
+        "accumulatedResposeBodySize": 236868,
+        "navigationDuration": 327,
+        "resourceDuration": 54,
+        "fcp": 296
+    },
+    "https://icloud.com": {
+        "requestCount": 17,
+        "responseCount": 10,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1502022,
+        "navigationDuration": 533,
+        "resourceDuration": 81,
+        "fcp": 334
+    },
+    "https://wordpress.org": {
+        "requestCount": 42,
+        "responseCount": 40,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1444224,
+        "navigationDuration": 943,
+        "resourceDuration": 236,
+        "fcp": 798
+    },
+    "https://youtu.be": {
+        "requestCount": 36,
+        "responseCount": 36,
+        "accumulatedRequestBodySize": 5047,
+        "accumulatedResposeBodySize": 1928155,
+        "navigationDuration": 2085,
+        "resourceDuration": 101,
+        "fcp": 1369
+    },
+    "https://digicert.com": {
+        "requestCount": 102,
+        "responseCount": 98,
+        "accumulatedRequestBodySize": 146802,
+        "accumulatedResposeBodySize": 4074315,
+        "navigationDuration": 4467,
+        "resourceDuration": 1488,
+        "fcp": 1752
+    },
+    "https://yahoo.com": {
+        "requestCount": 14,
+        "responseCount": 14,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 119861,
+        "navigationDuration": 1224,
+        "resourceDuration": 82,
+        "fcp": 1082
+    },
+    "https://github.com": {
+        "requestCount": 92,
+        "responseCount": 91,
+        "accumulatedRequestBodySize": 581,
+        "accumulatedResposeBodySize": 1544389,
+        "navigationDuration": 405,
+        "resourceDuration": 90,
+        "fcp": 252
+    },
+    "https://ui.com": {
+        "requestCount": 85,
+        "responseCount": 82,
+        "accumulatedRequestBodySize": 11135,
+        "accumulatedResposeBodySize": 19516831,
+        "navigationDuration": 761,
+        "resourceDuration": 28,
+        "fcp": 301
+    },
+    "https://pinterest.com": {
+        "requestCount": 365,
+        "responseCount": 250,
+        "accumulatedRequestBodySize": 24987,
+        "accumulatedResposeBodySize": 14432829,
+        "navigationDuration": 1570,
+        "resourceDuration": 1035,
+        "fcp": 847
+    },
+    "https://mail.ru": {
+        "requestCount": 151,
+        "responseCount": 146,
+        "accumulatedRequestBodySize": 41213,
+        "accumulatedResposeBodySize": 781638,
+        "navigationDuration": 2757,
+        "resourceDuration": 274,
+        "fcp": 1228
+    },
+    "https://sharepoint.com": {
+        "requestCount": 97,
+        "responseCount": 94,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 3603119,
+        "navigationDuration": 3413,
+        "resourceDuration": 603,
+        "fcp": 2727
+    },
+    "https://adobe.com": {
+        "requestCount": 17,
+        "responseCount": 16,
+        "accumulatedRequestBodySize": 53,
+        "accumulatedResposeBodySize": 117744,
+        "navigationDuration": 489,
+        "resourceDuration": 35
+    },
+    "https://googlesyndication.com": {
+        "requestCount": 26,
+        "responseCount": 25,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 725283,
+        "navigationDuration": 656,
+        "resourceDuration": 70,
+        "fcp": 337
+    },
+    "https://google-analytics.com": {
+        "requestCount": 30,
+        "responseCount": 29,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1147630,
+        "navigationDuration": 495,
+        "resourceDuration": 35,
+        "fcp": 382
+    },
+    "https://spotify.com": {
+        "requestCount": 44,
+        "responseCount": 42,
+        "accumulatedRequestBodySize": 2738,
+        "accumulatedResposeBodySize": 2914710,
+        "navigationDuration": 1272,
+        "resourceDuration": 87,
+        "fcp": 983
+    },
+    "https://wordpress.com": {
+        "requestCount": 47,
+        "responseCount": 43,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 969777,
+        "navigationDuration": 467,
+        "resourceDuration": 78,
+        "fcp": 222
+    },
+    "https://vimeo.com": {
+        "requestCount": 63,
+        "responseCount": 60,
+        "accumulatedRequestBodySize": 1850,
+        "accumulatedResposeBodySize": 25298644,
+        "navigationDuration": 1479,
+        "resourceDuration": 107,
+        "fcp": 955
+    },
+    "https://gandi.net": {
+        "requestCount": 16,
+        "responseCount": 14,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 181683,
+        "navigationDuration": 701,
+        "resourceDuration": 46,
+        "fcp": 504
+    },
+    "https://zoom.us": {
+        "requestCount": 127,
+        "responseCount": 124,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 6039894,
+        "navigationDuration": 1046,
+        "resourceDuration": 91,
+        "fcp": 730
+    },
+    "https://msn.com": {
+        "requestCount": 141,
+        "responseCount": 133,
+        "accumulatedRequestBodySize": 17271,
+        "accumulatedResposeBodySize": 2052650,
+        "navigationDuration": 1478,
+        "resourceDuration": 98,
+        "fcp": 693
+    },
+    "https://bit.ly": {
+        "requestCount": 65,
+        "responseCount": 59,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 749284,
+        "navigationDuration": 785,
+        "resourceDuration": 100,
+        "fcp": 548
+    },
+    "https://office365.com": {
+        "requestCount": 86,
+        "responseCount": 82,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1337050,
+        "navigationDuration": 2419,
+        "resourceDuration": 43,
+        "fcp": 1900
+    },
+    "https://skype.com": {
+        "requestCount": 32,
+        "responseCount": 31,
+        "accumulatedRequestBodySize": 1407,
+        "accumulatedResposeBodySize": 6375311,
+        "navigationDuration": 830,
+        "resourceDuration": 102
+    },
+    "https://whatsapp.net": {
+        "requestCount": 39,
+        "responseCount": 38,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2397610,
+        "navigationDuration": 788,
+        "resourceDuration": 92,
+        "fcp": 696
+    },
+    "https://yandex.net": {
+        "requestCount": 24,
+        "responseCount": 22,
+        "accumulatedRequestBodySize": 6918,
+        "accumulatedResposeBodySize": 150680,
+        "navigationDuration": 793,
+        "resourceDuration": 269,
+        "fcp": 310
+    },
+    "https://whatsapp.com": {
+        "requestCount": 39,
+        "responseCount": 38,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2397610,
+        "navigationDuration": 774,
+        "resourceDuration": 83,
+        "fcp": 646
+    },
+    "https://cloudflare.net": {
+        "requestCount": 104,
+        "responseCount": 101,
+        "accumulatedRequestBodySize": 15309,
+        "accumulatedResposeBodySize": 9852746,
+        "navigationDuration": 1726,
+        "resourceDuration": 138,
+        "fcp": 898
+    },
+    "https://mozilla.org": {
+        "requestCount": 47,
+        "responseCount": 46,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 446691,
+        "navigationDuration": 996,
+        "resourceDuration": 24,
+        "fcp": 814
+    },
+    "https://qq.com": {
+        "requestCount": 70,
+        "responseCount": 43,
+        "accumulatedRequestBodySize": 462,
+        "accumulatedResposeBodySize": 1048803,
+        "navigationDuration": 2933,
+        "resourceDuration": 1110,
+        "fcp": 785
+    },
+    "https://ntp.org": {
+        "requestCount": 28,
+        "responseCount": 25,
+        "accumulatedRequestBodySize": 6499,
+        "accumulatedResposeBodySize": 388504,
+        "navigationDuration": 2765,
+        "resourceDuration": 115,
+        "fcp": 945
+    },
+    "https://intuit.com": {
+        "requestCount": 195,
+        "responseCount": 175,
+        "accumulatedRequestBodySize": 6445,
+        "accumulatedResposeBodySize": 2374878,
+        "navigationDuration": 2598,
+        "resourceDuration": 905,
+        "fcp": 1350
+    },
+    "https://tiktok.com": {
+        "requestCount": 121,
+        "responseCount": 110,
+        "accumulatedRequestBodySize": 19013,
+        "accumulatedResposeBodySize": 3233936,
+        "navigationDuration": 937,
+        "resourceDuration": 108,
+        "fcp": 748
+    },
+    "https://cloudflare-dns.com": {
+        "requestCount": 31,
+        "responseCount": 21,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 556144,
+        "navigationDuration": 755,
+        "resourceDuration": 63,
+        "fcp": 378
+    },
+    "https://googledomains.com": {
+        "requestCount": 33,
+        "responseCount": 27,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1320514,
+        "navigationDuration": 853,
+        "resourceDuration": 33,
+        "fcp": 612
+    },
+    "https://blogspot.com": {
+        "requestCount": 63,
+        "responseCount": 61,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1700473,
+        "navigationDuration": 803,
+        "resourceDuration": 32,
+        "fcp": 613
+    },
+    "https://roblox.com": {
+        "requestCount": 178,
+        "responseCount": 173,
+        "accumulatedRequestBodySize": 74,
+        "accumulatedResposeBodySize": 1011038,
+        "navigationDuration": 956,
+        "resourceDuration": 143,
+        "fcp": 746
+    },
+    "https://outlook.com": {
+        "requestCount": 61,
+        "responseCount": 57,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1060271,
+        "navigationDuration": 1977,
+        "resourceDuration": 54,
+        "fcp": 1445
+    },
+    "https://reddit.com": {
+        "requestCount": 241,
+        "responseCount": 237,
+        "accumulatedRequestBodySize": 2563,
+        "accumulatedResposeBodySize": 4791677,
+        "navigationDuration": 1483,
+        "resourceDuration": 123,
+        "fcp": 617
+    },
+    "https://snapchat.com": {
+        "requestCount": 31,
+        "responseCount": 25,
+        "accumulatedRequestBodySize": 4016,
+        "accumulatedResposeBodySize": 473751,
+        "navigationDuration": 1059,
+        "resourceDuration": 101,
+        "fcp": 606
+    },
+    "https://yandex.ru": {
+        "requestCount": 182,
+        "responseCount": 140,
+        "accumulatedRequestBodySize": 118537,
+        "accumulatedResposeBodySize": 1896849,
+        "navigationDuration": 2257,
+        "resourceDuration": 402,
+        "fcp": 335
+    },
+    "https://opera.com": {
+        "requestCount": 77,
+        "responseCount": 69,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2526355,
+        "navigationDuration": 683,
+        "resourceDuration": 93,
+        "fcp": 525
+    },
+    "https://europa.eu": {
+        "requestCount": 55,
+        "responseCount": 48,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2779546,
+        "navigationDuration": 351,
+        "resourceDuration": 35,
+        "fcp": 118
+    },
+    "https://baidu.com": {
+        "requestCount": 58,
+        "responseCount": 43,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 144441,
+        "navigationDuration": 5586,
+        "resourceDuration": 3290,
+        "fcp": 2384
+    },
+    "https://nic.ru": {
+        "requestCount": 125,
+        "responseCount": 122,
+        "accumulatedRequestBodySize": 245,
+        "accumulatedResposeBodySize": 2594852,
+        "navigationDuration": 3561,
+        "resourceDuration": 127,
+        "fcp": 2132
+    },
+    "https://macromedia.com": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://pki.goog": {
+        "requestCount": 18,
+        "responseCount": 17,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 590429,
+        "navigationDuration": 489,
+        "resourceDuration": 31,
+        "fcp": 310
+    },
+    "https://epicgames.com": {
+        "requestCount": 66,
+        "responseCount": 63,
+        "accumulatedRequestBodySize": 12359,
+        "accumulatedResposeBodySize": 1382510,
+        "navigationDuration": 2255,
+        "resourceDuration": 90,
+        "fcp": 1500
+    },
+    "https://dropbox.com": {
+        "requestCount": 151,
+        "responseCount": 121,
+        "accumulatedRequestBodySize": 463114,
+        "accumulatedResposeBodySize": 520228,
+        "navigationDuration": 1476,
+        "resourceDuration": 118
+    },
+    "https://tumblr.com": {
+        "requestCount": 110,
+        "responseCount": 102,
+        "accumulatedRequestBodySize": 9991,
+        "accumulatedResposeBodySize": 16261686,
+        "navigationDuration": 1530,
+        "resourceDuration": 49,
+        "fcp": 470
+    },
+    "https://nih.gov": {
+        "requestCount": 69,
+        "responseCount": 69,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1365684,
+        "navigationDuration": 1769,
+        "resourceDuration": 31,
+        "fcp": 1009
+    },
+    "https://criteo.com": {
+        "requestCount": 89,
+        "responseCount": 86,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5314457,
+        "navigationDuration": 737,
+        "resourceDuration": 29,
+        "fcp": 497
+    },
+    "https://netflix.net": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://msedge.net": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://gravatar.com": {
+        "requestCount": 22,
+        "responseCount": 21,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 67416,
+        "navigationDuration": 1050,
+        "resourceDuration": 268,
+        "fcp": 961
+    },
+    "https://flickr.com": {
+        "requestCount": 76,
+        "responseCount": 70,
+        "accumulatedRequestBodySize": 1769,
+        "accumulatedResposeBodySize": 1403587,
+        "navigationDuration": 946,
+        "resourceDuration": 318,
+        "fcp": 253
+    },
+    "https://windows.com": {
+        "requestCount": 65,
+        "responseCount": 64,
+        "accumulatedRequestBodySize": 467,
+        "accumulatedResposeBodySize": 13612977,
+        "navigationDuration": 3737,
+        "resourceDuration": 52,
+        "fcp": 1982
+    },
+    "https://nytimes.com": {
+        "requestCount": 157,
+        "responseCount": 150,
+        "accumulatedRequestBodySize": 50849,
+        "accumulatedResposeBodySize": 13825794,
+        "navigationDuration": 1293,
+        "resourceDuration": 42,
+        "fcp": 335
+    },
+    "https://lencr.org": {
+        "requestCount": 19,
+        "responseCount": 18,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 445017,
+        "navigationDuration": 2426,
+        "resourceDuration": 35,
+        "fcp": 1188
+    },
+    "https://github.io": {
+        "requestCount": 22,
+        "responseCount": 22,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2754555,
+        "navigationDuration": 406,
+        "resourceDuration": 30,
+        "fcp": 291
+    },
+    "https://unity3d.com": {
+        "requestCount": 121,
+        "responseCount": 117,
+        "accumulatedRequestBodySize": 727,
+        "accumulatedResposeBodySize": 1753879,
+        "navigationDuration": 1361,
+        "resourceDuration": 41,
+        "fcp": 379
+    },
+    "https://sentry.io": {
+        "requestCount": 25,
+        "responseCount": 20,
+        "accumulatedRequestBodySize": 541,
+        "accumulatedResposeBodySize": 236200,
+        "navigationDuration": 1278,
+        "resourceDuration": 130,
+        "fcp": 663
+    },
+    "https://t.me": {
+        "requestCount": 37,
+        "responseCount": 34,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1239554,
+        "navigationDuration": 836,
+        "resourceDuration": 32,
+        "fcp": 496
+    },
+    "https://webex.com": {
+        "requestCount": 104,
+        "responseCount": 94,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5178763,
+        "navigationDuration": 1521,
+        "resourceDuration": 51,
+        "fcp": 794
+    },
+    "https://samsung.com": {
+        "requestCount": 61,
+        "responseCount": 56,
+        "accumulatedRequestBodySize": 145,
+        "accumulatedResposeBodySize": 2016307,
+        "navigationDuration": 2454,
+        "resourceDuration": 6
+    },
+    "https://sberdevices.ru": {
+        "requestCount": 67,
+        "responseCount": 38,
+        "accumulatedRequestBodySize": 15672,
+        "accumulatedResposeBodySize": 445222,
+        "navigationDuration": 1190,
+        "resourceDuration": 279,
+        "fcp": 879
+    },
+    "https://health.mil": {
+        "requestCount": 80,
+        "responseCount": 77,
+        "accumulatedRequestBodySize": 135,
+        "accumulatedResposeBodySize": 12284284,
+        "navigationDuration": 7795,
+        "resourceDuration": 173,
+        "fcp": 4462
+    },
+    "https://rubiconproject.com": {
+        "requestCount": 71,
+        "responseCount": 66,
+        "accumulatedRequestBodySize": 363,
+        "accumulatedResposeBodySize": 1178261,
+        "navigationDuration": 3368,
+        "resourceDuration": 138,
+        "fcp": 2404
+    },
+    "https://wa.me": {
+        "requestCount": 20,
+        "responseCount": 20,
+        "accumulatedRequestBodySize": 3298,
+        "accumulatedResposeBodySize": 305955
+    },
+    "https://zemanta.com": {
+        "requestCount": 93,
+        "responseCount": 92,
+        "accumulatedRequestBodySize": 8856,
+        "accumulatedResposeBodySize": 2078515,
+        "navigationDuration": 1050,
+        "resourceDuration": 64,
+        "fcp": 335
+    },
+    "https://apache.org": {
+        "requestCount": 34,
+        "responseCount": 33,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1407017,
+        "navigationDuration": 687,
+        "resourceDuration": 22,
+        "fcp": 127
+    },
+    "https://paypal.com": {
+        "requestCount": 41,
+        "responseCount": 40,
+        "accumulatedRequestBodySize": 4510,
+        "accumulatedResposeBodySize": 1272386,
+        "navigationDuration": 1791,
+        "resourceDuration": 114,
+        "fcp": 1254
+    },
+    "https://amazonvideo.com": {
+        "requestCount": 58,
+        "responseCount": 36,
+        "accumulatedRequestBodySize": 12991,
+        "accumulatedResposeBodySize": 694141,
+        "navigationDuration": 857,
+        "resourceDuration": 99,
+        "fcp": 723
+    },
+    "https://casalemedia.com": {
+        "requestCount": 50,
+        "responseCount": 49,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 10256781,
+        "navigationDuration": 1440,
+        "resourceDuration": 115,
+        "fcp": 1267
+    },
+    "https://tds.net": {
+        "requestCount": 21,
+        "responseCount": 21,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 495928,
+        "navigationDuration": 2397,
+        "resourceDuration": 105,
+        "fcp": 2371
+    },
+    "https://soundcloud.com": {
+        "requestCount": 21,
+        "responseCount": 17,
+        "accumulatedRequestBodySize": 3689,
+        "accumulatedResposeBodySize": 38521,
+        "navigationDuration": 531,
+        "resourceDuration": 112,
+        "fcp": 437
+    },
+    "https://cnn.com": {
+        "requestCount": 70,
+        "responseCount": 66,
+        "accumulatedRequestBodySize": 355,
+        "accumulatedResposeBodySize": 9762077,
+        "navigationDuration": 1363,
+        "resourceDuration": 43,
+        "fcp": 598
+    },
+    "https://t.co": {
+        "requestCount": 2,
+        "responseCount": 2,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1904,
+        "navigationDuration": 312,
+        "resourceDuration": 122,
+        "fcp": 209
+    },
+    "https://meraki.com": {
+        "requestCount": 88,
+        "responseCount": 87,
+        "accumulatedRequestBodySize": 15769,
+        "accumulatedResposeBodySize": 1231056,
+        "navigationDuration": 1438,
+        "resourceDuration": 86,
+        "fcp": 1132
+    },
+    "https://medium.com": {
+        "requestCount": 107,
+        "responseCount": 91,
+        "accumulatedRequestBodySize": 45898,
+        "accumulatedResposeBodySize": 553521,
+        "navigationDuration": 365,
+        "resourceDuration": 51,
+        "fcp": 192
+    },
+    "https://archive.org": {
+        "requestCount": 62,
+        "responseCount": 62,
+        "accumulatedRequestBodySize": 426,
+        "accumulatedResposeBodySize": 26760,
+        "navigationDuration": 2534,
+        "resourceDuration": 171,
+        "fcp": 1205
+    },
+    "https://salesforceliveagent.com": {
+        "requestCount": 3,
+        "responseCount": 2,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0,
+        "navigationDuration": 641,
+        "resourceDuration": 141
+    },
+    "https://vk.com": {
+        "requestCount": 97,
+        "responseCount": 93,
+        "accumulatedRequestBodySize": 3420,
+        "accumulatedResposeBodySize": 563972,
+        "navigationDuration": 1788,
+        "resourceDuration": 135,
+        "fcp": 1232
+    },
+    "https://salesforce.com": {
+        "requestCount": 167,
+        "responseCount": 146,
+        "accumulatedRequestBodySize": 1402,
+        "accumulatedResposeBodySize": 1959433,
+        "navigationDuration": 815,
+        "resourceDuration": 50,
+        "fcp": 362
+    },
+    "https://theguardian.com": {
+        "requestCount": 86,
+        "responseCount": 77,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1179725,
+        "navigationDuration": 600,
+        "resourceDuration": 57,
+        "fcp": 294
+    },
+    "https://w3.org": {
+        "requestCount": 22,
+        "responseCount": 18,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 181343,
+        "navigationDuration": 374,
+        "resourceDuration": 37,
+        "fcp": 239
+    },
+    "https://appsflyer.com": {
+        "requestCount": 50,
+        "responseCount": 48,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2015458,
+        "navigationDuration": 943,
+        "resourceDuration": 32,
+        "fcp": 687
+    },
+    "https://gmail.com": {
+        "requestCount": 24,
+        "responseCount": 23,
+        "accumulatedRequestBodySize": 165,
+        "accumulatedResposeBodySize": 408192,
+        "navigationDuration": 1388,
+        "resourceDuration": 162,
+        "fcp": 891
+    },
+    "https://applovin.com": {
+        "requestCount": 114,
+        "responseCount": 112,
+        "accumulatedRequestBodySize": 43,
+        "accumulatedResposeBodySize": 31504952,
+        "navigationDuration": 1569,
+        "resourceDuration": 46,
+        "fcp": 1581
+    },
+    "https://pubmatic.com": {
+        "requestCount": 61,
+        "responseCount": 56,
+        "accumulatedRequestBodySize": 373,
+        "accumulatedResposeBodySize": 1251079,
+        "navigationDuration": 1328,
+        "resourceDuration": 145,
+        "fcp": 643
+    },
+    "https://forbes.com": {
+        "requestCount": 37,
+        "responseCount": 35,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1236551,
+        "navigationDuration": 810,
+        "resourceDuration": 56,
+        "fcp": 284
+    },
+    "https://mangosip.ru": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://mozilla.com": {
+        "requestCount": 53,
+        "responseCount": 51,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 526669,
+        "navigationDuration": 986,
+        "resourceDuration": 27,
+        "fcp": 810
+    },
+    "https://ebay.com": {
+        "requestCount": 71,
+        "responseCount": 63,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1116394,
+        "navigationDuration": 1728,
+        "resourceDuration": 100,
+        "fcp": 883
+    },
+    "https://taboola.com": {
+        "requestCount": 63,
+        "responseCount": 57,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 10399481,
+        "navigationDuration": 675,
+        "resourceDuration": 17,
+        "fcp": 241
+    },
+    "https://dns.google": {
+        "requestCount": 8,
+        "responseCount": 8,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 29350,
+        "navigationDuration": 611,
+        "resourceDuration": 28,
+        "fcp": 508
+    },
+    "https://bbc.co.uk": {
+        "requestCount": 82,
+        "responseCount": 75,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1090929,
+        "navigationDuration": 481,
+        "resourceDuration": 149,
+        "fcp": 260
+    },
+    "https://googleblog.com": {
+        "requestCount": 50,
+        "responseCount": 45,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 958067,
+        "navigationDuration": 1814,
+        "resourceDuration": 63,
+        "fcp": 1539
+    },
+    "https://adobe.io": {
+        "requestCount": 53,
+        "responseCount": 52,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1189749,
+        "navigationDuration": 1067,
+        "resourceDuration": 92,
+        "fcp": 601
+    },
+    "https://rambler.ru": {
+        "requestCount": 64,
+        "responseCount": 61,
+        "accumulatedRequestBodySize": 325,
+        "accumulatedResposeBodySize": 160713,
+        "navigationDuration": 1308,
+        "resourceDuration": 250,
+        "fcp": 711
+    },
+    "https://mzstatic.com": {
+        "requestCount": 30,
+        "responseCount": 30,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 4166353,
+        "navigationDuration": 1013,
+        "resourceDuration": 17,
+        "fcp": 703
+    },
+    "https://xiaomi.com": {
+        "requestCount": 51,
+        "responseCount": 49,
+        "accumulatedRequestBodySize": 417,
+        "accumulatedResposeBodySize": 614032,
+        "navigationDuration": 2894,
+        "resourceDuration": 119,
+        "fcp": 2604
+    },
+    "https://creativecommons.org": {
+        "requestCount": 47,
+        "responseCount": 44,
+        "accumulatedRequestBodySize": 1136,
+        "accumulatedResposeBodySize": 7354071,
+        "navigationDuration": 895,
+        "resourceDuration": 29,
+        "fcp": 212
+    },
+    "https://bbc.com": {
+        "requestCount": 86,
+        "responseCount": 83,
+        "accumulatedRequestBodySize": 545,
+        "accumulatedResposeBodySize": 1151129,
+        "navigationDuration": 992,
+        "resourceDuration": 95,
+        "fcp": 358
+    },
+    "https://smartadserver.com": {
+        "requestCount": 59,
+        "responseCount": 56,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 753107,
+        "navigationDuration": 1204,
+        "resourceDuration": 34,
+        "fcp": 1060
+    },
+    "https://kaspersky.com": {
+        "requestCount": 90,
+        "responseCount": 82,
+        "accumulatedRequestBodySize": 397,
+        "accumulatedResposeBodySize": 1303752,
+        "navigationDuration": 1441,
+        "resourceDuration": 45,
+        "fcp": 528
+    },
+    "https://sourceforge.net": {
+        "requestCount": 30,
+        "responseCount": 30,
+        "accumulatedRequestBodySize": 7058,
+        "accumulatedResposeBodySize": 136307,
+        "navigationDuration": 822,
+        "resourceDuration": 107,
+        "fcp": 502
+    },
+    "https://myfritz.net": {
+        "requestCount": 18,
+        "responseCount": 16,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 108847,
+        "navigationDuration": 598,
+        "resourceDuration": 38
+    },
+    "https://cisco.com": {
+        "requestCount": 73,
+        "responseCount": 71,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1054805,
+        "navigationDuration": 1311,
+        "resourceDuration": 59,
+        "fcp": 1107
+    },
+    "https://discord.com": {
+        "requestCount": 52,
+        "responseCount": 49,
+        "accumulatedRequestBodySize": 12333,
+        "accumulatedResposeBodySize": 1134993,
+        "navigationDuration": 909,
+        "resourceDuration": 59,
+        "fcp": 359
+    },
+    "https://imdb.com": {
+        "requestCount": 91,
+        "responseCount": 87,
+        "accumulatedRequestBodySize": 1894,
+        "accumulatedResposeBodySize": 1403281,
+        "navigationDuration": 2413,
+        "resourceDuration": 95,
+        "fcp": 1580
+    },
+    "https://shifen.com": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://comfortel.pro": {
+        "requestCount": 88,
+        "responseCount": 80,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1320108,
+        "navigationDuration": 2320,
+        "resourceDuration": 73,
+        "fcp": 1167
+    },
+    "https://hp.com": {
+        "requestCount": 64,
+        "responseCount": 61,
+        "accumulatedRequestBodySize": 4049,
+        "accumulatedResposeBodySize": 981482,
+        "navigationDuration": 1497,
+        "resourceDuration": 29,
+        "fcp": 1220
+    },
+    "https://mit.edu": {
+        "requestCount": 42,
+        "responseCount": 41,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1480926,
+        "navigationDuration": 1486,
+        "resourceDuration": 126,
+        "fcp": 859
+    },
+    "https://nginx.org": {
+        "requestCount": 3,
+        "responseCount": 2,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5029,
+        "navigationDuration": 144,
+        "resourceDuration": 24,
+        "fcp": 126
+    },
+    "https://slack.com": {
+        "requestCount": 78,
+        "responseCount": 74,
+        "accumulatedRequestBodySize": 24,
+        "accumulatedResposeBodySize": 13587412,
+        "navigationDuration": 1123,
+        "resourceDuration": 110,
+        "fcp": 577
+    },
+    "https://miui.com": {
+        "requestCount": 94,
+        "responseCount": 90,
+        "accumulatedRequestBodySize": 802,
+        "accumulatedResposeBodySize": 3703227,
+        "navigationDuration": 8998,
+        "resourceDuration": 26,
+        "fcp": 7332
+    },
+    "https://sciencedirect.com": {
+        "requestCount": 22,
+        "responseCount": 19,
+        "accumulatedRequestBodySize": 24722,
+        "accumulatedResposeBodySize": 271606,
+        "navigationDuration": 526,
+        "resourceDuration": 100,
+        "fcp": 442
+    },
+    "https://userapi.com": {
+        "requestCount": 98,
+        "responseCount": 94,
+        "accumulatedRequestBodySize": 3414,
+        "accumulatedResposeBodySize": 564173,
+        "navigationDuration": 2099,
+        "resourceDuration": 154,
+        "fcp": 1468
+    },
+    "https://twitch.tv": {
+        "requestCount": 83,
+        "responseCount": 69,
+        "accumulatedRequestBodySize": 32397,
+        "accumulatedResposeBodySize": 889738,
+        "navigationDuration": 1425,
+        "resourceDuration": 105,
+        "fcp": 207
+    },
+    "https://ubuntu.com": {
+        "requestCount": 31,
+        "responseCount": 31,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1332951,
+        "navigationDuration": 627,
+        "resourceDuration": 158,
+        "fcp": 340
+    },
+    "https://who.int": {
+        "requestCount": 105,
+        "responseCount": 104,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5316509,
+        "navigationDuration": 1060,
+        "resourceDuration": 114,
+        "fcp": 953
+    },
+    "https://nginx.com": {
+        "requestCount": 77,
+        "responseCount": 77,
+        "accumulatedRequestBodySize": 603,
+        "accumulatedResposeBodySize": 2030482,
+        "navigationDuration": 1690,
+        "resourceDuration": 22,
+        "fcp": 1117
+    },
+    "https://t-mobile.com": {
+        "requestCount": 59,
+        "responseCount": 53,
+        "accumulatedRequestBodySize": 1949,
+        "accumulatedResposeBodySize": 406602,
+        "navigationDuration": 1054,
+        "resourceDuration": 127
+    },
+    "https://mcafee.com": {
+        "requestCount": 55,
+        "responseCount": 52,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 774974,
+        "navigationDuration": 1226,
+        "resourceDuration": 84
+    },
+    "https://ampproject.org": {
+        "requestCount": 20,
+        "responseCount": 18,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 221171,
+        "navigationDuration": 467,
+        "resourceDuration": 21,
+        "fcp": 344
+    },
+    "https://washingtonpost.com": {
+        "requestCount": 221,
+        "responseCount": 215,
+        "accumulatedRequestBodySize": 5405,
+        "accumulatedResposeBodySize": 18610565,
+        "navigationDuration": 2364,
+        "resourceDuration": 85,
+        "fcp": 711
+    },
+    "https://amazon.co.uk": {
+        "requestCount": 275,
+        "responseCount": 267,
+        "accumulatedRequestBodySize": 67600,
+        "accumulatedResposeBodySize": 4083575,
+        "navigationDuration": 901,
+        "resourceDuration": 105,
+        "fcp": 548
+    },
+    "https://openx.net": {
+        "requestCount": 2,
+        "responseCount": 1,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 516,
+        "navigationDuration": 218,
+        "fcp": 130
+    },
+    "https://go.com": {
+        "requestCount": 47,
+        "responseCount": 43,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 819146,
+        "navigationDuration": 1203,
+        "resourceDuration": 125,
+        "fcp": 792
+    },
+    "https://researchgate.net": {
+        "requestCount": 58,
+        "responseCount": 52,
+        "accumulatedRequestBodySize": 24781,
+        "accumulatedResposeBodySize": 834173,
+        "navigationDuration": 780,
+        "resourceDuration": 119,
+        "fcp": 406
+    },
+    "https://shopify.com": {
+        "requestCount": 165,
+        "responseCount": 164,
+        "accumulatedRequestBodySize": 5764,
+        "accumulatedResposeBodySize": 1107178,
+        "navigationDuration": 1109,
+        "resourceDuration": 134,
+        "fcp": 1022
+    },
+    "https://wikimedia.org": {
+        "requestCount": 20,
+        "responseCount": 20,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 153421,
+        "navigationDuration": 322,
+        "resourceDuration": 41,
+        "fcp": 174
+    },
+    "https://issuu.com": {
+        "requestCount": 65,
+        "responseCount": 64,
+        "accumulatedRequestBodySize": 776,
+        "accumulatedResposeBodySize": 5376871,
+        "navigationDuration": 1697,
+        "resourceDuration": 144,
+        "fcp": 424
+    },
+    "https://b-cdn.net": {
+        "requestCount": 115,
+        "responseCount": 109,
+        "accumulatedRequestBodySize": 1466,
+        "accumulatedResposeBodySize": 698004,
+        "navigationDuration": 542,
+        "resourceDuration": 119,
+        "fcp": 393
+    },
+    "https://android.com": {
+        "requestCount": 41,
+        "responseCount": 41,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 17368792,
+        "navigationDuration": 917,
+        "resourceDuration": 83,
+        "fcp": 451
+    },
+    "https://launchdarkly.com": {
+        "requestCount": 216,
+        "responseCount": 208,
+        "accumulatedRequestBodySize": 1184,
+        "accumulatedResposeBodySize": 3029345,
+        "navigationDuration": 1642,
+        "resourceDuration": 81,
+        "fcp": 403
+    },
+    "https://hipages.com.au": {
+        "requestCount": 59,
+        "responseCount": 52,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 479890,
+        "navigationDuration": 2593,
+        "resourceDuration": 138,
+        "fcp": 1364
+    },
+    "https://aol.com": {
+        "requestCount": 37,
+        "responseCount": 37,
+        "accumulatedRequestBodySize": 10249,
+        "accumulatedResposeBodySize": 194569,
+        "navigationDuration": 2791,
+        "resourceDuration": 108,
+        "fcp": 1385
+    },
+    "https://doubleverify.com": {
+        "requestCount": 55,
+        "responseCount": 52,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5870411,
+        "navigationDuration": 424,
+        "resourceDuration": 24,
+        "fcp": 199
+    },
+    "https://hubspot.com": {
+        "requestCount": 105,
+        "responseCount": 95,
+        "accumulatedRequestBodySize": 153,
+        "accumulatedResposeBodySize": 488147,
+        "navigationDuration": 807,
+        "resourceDuration": 90,
+        "fcp": 545
+    },
+    "https://telefonica.de": {
+        "requestCount": 37,
+        "responseCount": 36,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 720737,
+        "navigationDuration": 470,
+        "resourceDuration": 28,
+        "fcp": 259
+    },
+    "https://wp.com": {
+        "requestCount": 48,
+        "responseCount": 44,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 969777,
+        "navigationDuration": 699,
+        "resourceDuration": 99,
+        "fcp": 412
+    },
+    "https://appcenter.ms": {
+        "requestCount": 39,
+        "responseCount": 39,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2410562,
+        "navigationDuration": 1219,
+        "resourceDuration": 137,
+        "fcp": 429
+    },
+    "https://cdc.gov": {
+        "requestCount": 38,
+        "responseCount": 35,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2118788,
+        "navigationDuration": 1465,
+        "resourceDuration": 28,
+        "fcp": 1025
+    },
+    "https://tinyurl.com": {
+        "requestCount": 29,
+        "responseCount": 26,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 583328,
+        "navigationDuration": 1343,
+        "resourceDuration": 196,
+        "fcp": 854
+    },
+    "https://dailymail.co.uk": {
+        "requestCount": 179,
+        "responseCount": 175,
+        "accumulatedRequestBodySize": 2000,
+        "accumulatedResposeBodySize": 3295226,
+        "navigationDuration": 1829,
+        "resourceDuration": 44,
+        "fcp": 750
+    },
+    "https://adsrvr.org": {
+        "requestCount": 8,
+        "responseCount": 8,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 618935,
+        "navigationDuration": 2186,
+        "resourceDuration": 109,
+        "fcp": 1060
+    },
+    "https://dnsmadeeasy.com": {
+        "requestCount": 90,
+        "responseCount": 87,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 3084014,
+        "navigationDuration": 1530,
+        "resourceDuration": 90,
+        "fcp": 576
+    },
+    "https://datadoghq.com": {
+        "requestCount": 47,
+        "responseCount": 41,
+        "accumulatedRequestBodySize": 31420,
+        "accumulatedResposeBodySize": 1011096,
+        "navigationDuration": 646,
+        "resourceDuration": 55,
+        "fcp": 441
+    },
+    "https://oracle.com": {
+        "requestCount": 89,
+        "responseCount": 88,
+        "accumulatedRequestBodySize": 361,
+        "accumulatedResposeBodySize": 1633325,
+        "navigationDuration": 1477,
+        "resourceDuration": 80,
+        "fcp": 955
+    },
+    "https://weebly.com": {
+        "requestCount": 43,
+        "responseCount": 42,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2640909,
+        "navigationDuration": 2723,
+        "resourceDuration": 104,
+        "fcp": 2159
+    },
+    "https://opendns.com": {
+        "requestCount": 45,
+        "responseCount": 45,
+        "accumulatedRequestBodySize": 44,
+        "accumulatedResposeBodySize": 1473215,
+        "navigationDuration": 2980,
+        "resourceDuration": 106,
+        "fcp": 1944
+    },
+    "https://reuters.com": {
+        "requestCount": 84,
+        "responseCount": 69,
+        "accumulatedRequestBodySize": 5472,
+        "accumulatedResposeBodySize": 1732175,
+        "navigationDuration": 1925,
+        "resourceDuration": 71,
+        "fcp": 1097
+    },
+    "https://canva.com": {
+        "requestCount": 54,
+        "responseCount": 45,
+        "accumulatedRequestBodySize": 23607,
+        "accumulatedResposeBodySize": 191984,
+        "navigationDuration": 817,
+        "resourceDuration": 161
+    },
+    "https://360yield.com": {
+        "requestCount": 26,
+        "responseCount": 23,
+        "accumulatedRequestBodySize": 3890,
+        "accumulatedResposeBodySize": 5804418,
+        "navigationDuration": 2438,
+        "resourceDuration": 78
+    },
+    "https://harvard.edu": {
+        "requestCount": 82,
+        "responseCount": 80,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2380768,
+        "navigationDuration": 900,
+        "resourceDuration": 44,
+        "fcp": 353
+    },
+    "https://doi.org": {
+        "requestCount": 44,
+        "responseCount": 44,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2507202,
+        "navigationDuration": 3247,
+        "resourceDuration": 99,
+        "fcp": 1816
+    },
+    "https://force.com": {
+        "requestCount": 151,
+        "responseCount": 142,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 2477394,
+        "navigationDuration": 972,
+        "resourceDuration": 92,
+        "fcp": 431
+    },
+    "https://slideshare.net": {
+        "requestCount": 54,
+        "responseCount": 40,
+        "accumulatedRequestBodySize": 7389,
+        "accumulatedResposeBodySize": 801671,
+        "navigationDuration": 1004,
+        "resourceDuration": 116,
+        "fcp": 520
+    },
+    "https://3lift.com": {
+        "requestCount": 69,
+        "responseCount": 65,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 4459156,
+        "navigationDuration": 2454,
+        "resourceDuration": 34,
+        "fcp": 1972
+    },
+    "https://booking.com": {
+        "requestCount": 109,
+        "responseCount": 105,
+        "accumulatedRequestBodySize": 56,
+        "accumulatedResposeBodySize": 329607,
+        "navigationDuration": 1542,
+        "resourceDuration": 139,
+        "fcp": 1306
+    },
+    "https://google.de": {
+        "requestCount": 26,
+        "responseCount": 25,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 755620,
+        "navigationDuration": 703,
+        "resourceDuration": 78,
+        "fcp": 384
+    },
+    "https://bidswitch.net": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://grammarly.com": {
+        "requestCount": 57,
+        "responseCount": 52,
+        "accumulatedRequestBodySize": 2806,
+        "accumulatedResposeBodySize": 11168062,
+        "navigationDuration": 1165,
+        "resourceDuration": 120,
+        "fcp": 1034
+    },
+    "https://ibm.com": {
+        "requestCount": 139,
+        "responseCount": 139,
+        "accumulatedRequestBodySize": 2270,
+        "accumulatedResposeBodySize": 3687172
+    },
+    "https://www.gov.uk": {
+        "requestCount": 21,
+        "responseCount": 21,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 175424,
+        "navigationDuration": 341,
+        "resourceDuration": 22,
+        "fcp": 301
+    },
+    "https://roku.com": {
+        "requestCount": 36,
+        "responseCount": 26,
+        "accumulatedRequestBodySize": 8169,
+        "accumulatedResposeBodySize": 118028,
+        "navigationDuration": 818,
+        "resourceDuration": 45,
+        "fcp": 810
+    },
+    "https://espn.com": {
+        "requestCount": 138,
+        "responseCount": 117,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 4308804,
+        "navigationDuration": 1773,
+        "resourceDuration": 90,
+        "fcp": 642
+    },
+    "https://media.net": {
+        "requestCount": 34,
+        "responseCount": 33,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 469402,
+        "navigationDuration": 948,
+        "resourceDuration": 124,
+        "fcp": 817
+    },
+    "https://weibo.com": {
+        "requestCount": 4,
+        "responseCount": 3,
+        "accumulatedRequestBodySize": 40,
+        "accumulatedResposeBodySize": 567,
+        "navigationDuration": 4142,
+        "resourceDuration": 342
+    },
+    "https://teamviewer.com": {
+        "requestCount": 140,
+        "responseCount": 140,
+        "accumulatedRequestBodySize": 2154,
+        "accumulatedResposeBodySize": 4413131,
+        "navigationDuration": 1043,
+        "resourceDuration": 107,
+        "fcp": 468
+    },
+    "https://moatads.com": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://wildberries.ru": {
+        "requestCount": 30,
+        "responseCount": 26,
+        "accumulatedRequestBodySize": 69,
+        "accumulatedResposeBodySize": 471256,
+        "navigationDuration": 1388,
+        "resourceDuration": 384,
+        "fcp": 1012
+    },
+    "https://nist.gov": {
+        "requestCount": 51,
+        "responseCount": 50,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 540676,
+        "navigationDuration": 2421,
+        "resourceDuration": 108,
+        "fcp": 1603
+    },
+    "https://vungle.com": {
+        "requestCount": 129,
+        "responseCount": 125,
+        "accumulatedRequestBodySize": 29548,
+        "accumulatedResposeBodySize": 1713989,
+        "navigationDuration": 2218,
+        "resourceDuration": 74
+    },
+    "https://dns.cn": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://google.co.uk": {
+        "requestCount": 26,
+        "responseCount": 23,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 755705,
+        "navigationDuration": 717,
+        "resourceDuration": 124,
+        "fcp": 384
+    },
+    "https://adriver.ru": {
+        "requestCount": 82,
+        "responseCount": 82,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1289796,
+        "navigationDuration": 3598,
+        "resourceDuration": 97,
+        "fcp": 1820
+    },
+    "https://bloomberg.com": {
+        "requestCount": 166,
+        "responseCount": 158,
+        "accumulatedRequestBodySize": 1207,
+        "accumulatedResposeBodySize": 2698581,
+        "navigationDuration": 1196,
+        "resourceDuration": 94,
+        "fcp": 633
+    },
+    "https://etsy.com": {
+        "requestCount": 65,
+        "responseCount": 62,
+        "accumulatedRequestBodySize": 10669,
+        "accumulatedResposeBodySize": 1950115,
+        "navigationDuration": 797,
+        "resourceDuration": 25,
+        "fcp": 662
+    },
+    "https://indeed.com": {
+        "requestCount": 69,
+        "responseCount": 66,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 483977,
+        "navigationDuration": 786,
+        "resourceDuration": 81,
+        "fcp": 678
+    },
+    "https://reg.ru": {
+        "requestCount": 123,
+        "responseCount": 108,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1648247,
+        "navigationDuration": 1858,
+        "resourceDuration": 57,
+        "fcp": 1497
+    },
+    "https://nvidia.com": {
+        "requestCount": 78,
+        "responseCount": 70,
+        "accumulatedRequestBodySize": 3892,
+        "accumulatedResposeBodySize": 3509850,
+        "navigationDuration": 2204,
+        "resourceDuration": 30,
+        "fcp": 741
+    },
+    "https://elasticbeanstalk.com": {
+        "requestCount": 1,
+        "responseCount": 0,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 0
+    },
+    "https://steampowered.com": {
+        "requestCount": 146,
+        "responseCount": 146,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5925237,
+        "navigationDuration": 2254,
+        "resourceDuration": 88,
+        "fcp": 774
+    },
+    "https://crashlytics.com": {
+        "requestCount": 97,
+        "responseCount": 96,
+        "accumulatedRequestBodySize": 1230,
+        "accumulatedResposeBodySize": 2844695,
+        "navigationDuration": 2074,
+        "resourceDuration": 96,
+        "fcp": 1028
+    },
+    "https://dailymotion.com": {
+        "requestCount": 41,
+        "responseCount": 37,
+        "accumulatedRequestBodySize": 12768,
+        "accumulatedResposeBodySize": 1302893,
+        "navigationDuration": 584,
+        "resourceDuration": 90
+    },
+    "https://wsj.com": {
+        "requestCount": 265,
+        "responseCount": 255,
+        "accumulatedRequestBodySize": 261,
+        "accumulatedResposeBodySize": 4438740,
+        "navigationDuration": 3038,
+        "resourceDuration": 24,
+        "fcp": 420
+    },
+    "https://google.com.br": {
+        "requestCount": 26,
+        "responseCount": 22,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 755477,
+        "navigationDuration": 642,
+        "resourceDuration": 42,
+        "fcp": 386
+    },
+    "https://wiley.com": {
+        "requestCount": 60,
+        "responseCount": 58,
+        "accumulatedRequestBodySize": 184,
+        "accumulatedResposeBodySize": 589347,
+        "navigationDuration": 2003,
+        "resourceDuration": 32,
+        "fcp": 1508
+    },
+    "https://nature.com": {
+        "requestCount": 53,
+        "responseCount": 49,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 1748263,
+        "navigationDuration": 1013,
+        "resourceDuration": 46,
+        "fcp": 633
+    },
+    "https://criteo.net": {
+        "requestCount": 89,
+        "responseCount": 86,
+        "accumulatedRequestBodySize": 0,
+        "accumulatedResposeBodySize": 5314457,
+        "navigationDuration": 707,
+        "resourceDuration": 24,
+        "fcp": 498
+    }
+}

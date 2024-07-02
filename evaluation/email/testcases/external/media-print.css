@@ -1,0 +1,10 @@
+@media print {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-print-external);
+  }
+}
+@media not print {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-print-external);
+  }
+}

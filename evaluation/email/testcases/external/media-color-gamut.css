@@ -1,0 +1,15 @@
+@media (color-gamut: srgb) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-color-gamut-external);
+  }
+}
+@media (color-gamut: p3) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-color-gamut-external);
+  }
+}
+@media (color-gamut: rec2020) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-color-gamut-external);
+  }
+}

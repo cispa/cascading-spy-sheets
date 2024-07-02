@@ -1,0 +1,10 @@
+@media (prefers-reduced-transparency: no-preference) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-prefers-reduced-transparency-external);
+  }
+}
+@media (prefers-reduced-transparency: reduce) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-prefers-reduced-transparency-external);
+  }
+}

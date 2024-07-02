@@ -1,0 +1,10 @@
+@media (grid: 0) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-grid-external);
+  }
+}
+@media (grid: 1) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-grid-external);
+  }
+}

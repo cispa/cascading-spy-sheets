@@ -1,0 +1,2 @@
+chromium 120
+firefox 119

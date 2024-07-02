@@ -1,0 +1,23 @@
+| Email Client        | HTML | @media | Container | Supports | @media | Conclusion |
+| ------------------- | ---- | ------ | --------- | -------- | ------ | ---------- |
+| web-icloud          | 94   | 30     | 1         | 1        | 30     | XXX        |
+| web-roundcube       | 86   | 29     | 1         | 1        | 29     | XXX        |
+| desktop-thunderbird | 108  | 29     | 1         | 1        | 29     | XXX        |
+| ios-mail            | 106  | 28     | 1         | 1        | 28     | XXX        |
+| ios-gmx             | 106  | 27     | 1         | 1        | 27     | XXX        |
+| desktop-apple       | 106  | 29     | 1         | 1        | 29     | XXX        |
+| android-samsung     | 107  | 29     | 1         | 1        | 29     | XXX        |
+| android-gmx         | 46   | 28     | 1         | 1        | 28     | XXX        |
+| web-mailcow         | 106  | 30     | 1         | 1        | 30     | X          |
+| web-gmail           | 92   | 5      | 0         | 0        | 5      | X          |
+| android-gmail       | 92   | 5      | 0         | 0        | 5      | X          |
+| web-aol             | 81   | 4      | 0         | 1        | 4      | X          |
+| web-yahoo           | 81   | 4      | 0         | 1        | 4      | X          |
+| desktop-winmail     | 0    | 0      | 0         | 0        | 0      | X          |
+| android-outlook     | 94   | 28     | 0         | 0        | 28     | X          |
+| web-outlook         | 86   | 29     | 0         | 0        | 29     | X          |
+| ios-outlook         | 85   | 27     | 0         | 0        | 27     | X          |
+| ios-gmail           | 90   | 5      | 0         | 0        | 5      | X          |
+| desktop-outlook     | 87   | 29     | 0         | 0        | 29     | X          |
+| web-gmx             | 54   | 0      | 0         | 0        | 0      | X          |
+| web-proton          | 81   | 32     | 1         | 1        | 32     | XXX        |

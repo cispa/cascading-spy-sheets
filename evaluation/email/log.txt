@@ -1,0 +1,95 @@
+[+] Received request:: web-gmail/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+	[*] Client ID: web-gmail
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: android-gmail/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+	[*] Client ID: android-gmail
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: web-icloud/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 AppleWebKit/WebKit_version (KHTML, like Gecko)
+	[*] Client ID: web-icloud
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: web-yahoo/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+	[*] Client ID: web-yahoo
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: web-aol/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html
+	[*] Client ID: web-aol
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: web-roundcube/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+	[*] Client ID: web-roundcube
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: android-outlook/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (Linux; Android 14; Pixel 6a Build/UQ1A.240105.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.230 Mobile Safari/537.36
+	[*] Client ID: android-outlook
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: web-outlook/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+	[*] Client ID: web-outlook
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: web-proton/sanity-no
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+	[*] Client ID: web-proton
+	[*] Detected feature: sanity-no
+
+[+] Received request:: web-proton/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36
+	[*] Client ID: web-proton
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: android-samsung/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (Linux; Android 14; SM-A546B Build/UP1A.231005.007; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.230 Mobile Safari/537.36
+	[*] Client ID: android-samsung
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: desktop-apple/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0
+	[*] Client ID: desktop-apple
+	[*] Detected feature: sanity-yes
+
+[+] Received request:: desktop-outlook/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0 OneOutlook/1.2024.131.300
+        [*] Client ID: desktop-outlook
+        [*] Detected feature: sanity-yes
+
+[+] Received request:: ios-outlook/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+        [*] Client ID: ios-outlook
+        [*] Detected feature: sanity-yes
+
+[+] Received request:: ios-gmail/sanity-yes
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+        [*] Client ID: ios-gmail
+        [*] Detected feature: sanity-yes
+
+[+] Received request:: ios-mail/sanity-yes1
+[+] IP: XXX.XXX.XXX.XXX,XXX.XXX.XXX.XXX
+[+] User Agent: Mozilla/5.0
+        [*] Client ID: ios-mail
+        [*] Detected feature: sanity-yes1

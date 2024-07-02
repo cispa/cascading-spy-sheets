@@ -1,0 +1,10 @@
+@media (orientation: landscape) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-orientation-external);
+  }
+}
+@media (orientation: portrait) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-orientation-external);
+  }
+}

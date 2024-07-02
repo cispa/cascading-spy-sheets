@@ -1,0 +1,10 @@
+@media (prefers-color-scheme: dark) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-prefers-color-scheme-external);
+  }
+}
+@media (prefers-color-scheme: light) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-prefers-color-scheme-external);
+  }
+}

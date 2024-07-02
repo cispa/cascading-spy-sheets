@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fingerprinting PoC</title>
+    <style>
+      /* Shared Styles */
+      .wrapper {
+        width: fit-content;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>Calc OS Fingerprinting</h4>
+    <p>
+      This is designed to distinguish clean installs of Windows 11 and Ubuntu
+      22.04 LTS.
+    </p>
+    <style>
+      #containerCalc {
+        container: calccontainer / inline-size;
+      }
+      #targetCalc {
+        width: calc(
+          1px *
+            (
+              199388.0249856822 - 124758.21519891008 * pi /
+                cos(
+                  (
+                      0.5409706253558397 / 86462.38261475296 *
+                        0.2426115747075528 + e / e + e
+                    ) / 0.43174917926080525 +
+                    (
+                      164343.4944310714 / tan(658602.7343077312) * pi -
+                        (108821.41011023054) / 0.5633180781733245
+                    ) * 10952.792595948093 - 96333.10458017582 *
+                    (
+                      (505396.1070515131) * sin(80124.95058569996) -
+                        sin(7593.730442258351) / (41142.63362175118) -
+                        95222.03386498055 * 48959.44290704055 *
+                        90176.29643705222
+                    )
+                )
+            )
+        );
+      }
+      /* Width is 0 on Ubuntu 22.04 LTS and 850446.375 on Windows 11 */
+      @container calccontainer (width: 0px) {
+        #calcUbuntu {
+          color: orangered;
+        }
+        #calcWindows {
+          display: none;
+        }
+      }
+      @container calccontainer (width: 850446.375px) {
+        #calcUbuntu {
+          display: none;
+        }
+        #calcWindows {
+          color: blue;
+        }
+      }
+    </style>
+    <div class="wrapper">
+      <div id="targetCalc"></div>
+      <div id="containerCalc">
+        <span id="calcWindows">Windows 11</span
+        ><span id="calcUbuntu">Ubuntu 22.04</span>
+      </div>
+    </div>
+    <h4>Element Width OS Fingerprinting</h4>
+    <p>
+      This is designed to distinguish clean installs of Windows 11 and Ubuntu
+      22.04 LTS.
+    </p>
+    <style>
+      #containerEmail {
+        container: emailcontainer / inline-size;
+      }
+      @container emailcontainer (width: 180px) {
+        #emailUbuntu {
+          color: orangered;
+        }
+        #emailWindows {
+          display: none;
+        }
+      }
+      @container emailcontainer (width: 158px) {
+        #emailUbuntu {
+          display: none;
+        }
+        #emailWindows {
+          color: blue;
+        }
+      }
+    </style>
+    <div class="wrapper">
+      <input type="email" placeholder="name@email.com" />
+      <div id="containerEmail">
+        <span id="emailWindows">Windows 11</span
+        ><span id="emailUbuntu">Ubuntu 22.04</span>
+      </div>
+    </div>
+  </body>
+</html>

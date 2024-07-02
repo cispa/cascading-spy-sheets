@@ -1,0 +1,5 @@
+@media (min-color: 1) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-color-external);
+  }
+}

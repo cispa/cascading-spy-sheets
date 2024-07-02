@@ -1,0 +1,15 @@
+@media (update: none) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-update-external);
+  }
+}
+@media (update: slow) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-update-external);
+  }
+}
+@media (update: fast) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-update-external);
+  }
+}

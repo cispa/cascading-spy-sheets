@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100dvh;
+        }
+
+        /* Actual Stuff */
+        #container {
+            container-type: inline-size;
+            width: 1ch;
+        }
+
+        @container (width > 8.8px) {
+            p {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="trustnav_pb_iframe">
+        <div id="container"><p>No extension!</p></div>
+    </div>
+</body>
+
+</html>

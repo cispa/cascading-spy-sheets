@@ -1,0 +1,26 @@
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Print Detection
+
+<html>
+  <head>
+    <style>
+        #print {
+            display: none;
+        }
+        
+        @media print {
+            #print {
+                display: block;
+            }
+        }
+    </style>
+  </head>
+
+  <body>
+    <p>This is always visible.</p>
+    <p id="print">This is only visible upon print!</p>
+  </body>
+</html>
+

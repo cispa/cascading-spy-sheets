@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viewport Leakage</title>
+  <style>
+    #container {
+      container-type: inline-size;
+      width: 1vw;
+    }
+
+    p {
+      display: none;
+    }
+
+    @container (width > 1px) {
+      #p100 {
+        display: block;
+      }
+    }
+
+    @container (width > 2px) {
+      #p200 {
+        display: block;
+      }
+    }
+
+    @container (width > 3px) {
+      #p300 {
+        display: block;
+      }
+    }
+
+    @container (width > 4px) {
+      #p400 {
+        display: block;
+      }
+    }
+
+    @container (width > 5px) {
+      #p500 {
+        display: block;
+      }
+    }
+
+    @container (width > 6px) {
+      #p600 {
+        display: block;
+      }
+    }
+
+    @container (width > 7px) {
+      #p700 {
+        display: block;
+      }
+    }
+
+    @container (width > 8px) {
+      #p800 {
+        display: block;
+      }
+    }
+
+    @container (width > 9px) {
+      #p900 {
+        display: block;
+      }
+    }
+
+    @container (width > 10px) {
+      #p1000 {
+        display: block;
+      }
+    }
+
+    @container (width > 11px) {
+      #p1100 {
+        display: block;
+      }
+    }
+
+    @container (width > 12px) {
+      #p1200 {
+        display: block;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <p id="p100">100px Viewport Width</p>
+    <p id="p200">200px Viewport Width</p>
+    <p id="p300">300px Viewport Width</p>
+    <p id="p400">400px Viewport Width</p>
+    <p id="p500">500px Viewport Width</p>
+    <p id="p600">600px Viewport Width</p>
+    <p id="p700">700px Viewport Width</p>
+    <p id="p800">800px Viewport Width</p>
+    <p id="p900">900px Viewport Width</p>
+    <p id="p1000">1000px Viewport Width</p>
+    <p id="p1100">1100px Viewport Width</p>
+    <p id="p1200">1200px Viewport Width</p>
+  </div>
+</body>
+
+</html>

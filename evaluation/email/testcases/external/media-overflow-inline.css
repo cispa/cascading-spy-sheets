@@ -1,0 +1,10 @@
+@media (overflow-inline: none) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-overflow-inline-external);
+  }
+}
+@media (overflow-inline: scroll) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-overflow-inline-external);
+  }
+}

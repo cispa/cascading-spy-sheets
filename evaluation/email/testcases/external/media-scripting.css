@@ -1,0 +1,17 @@
+@media (scripting: none) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-scripting-external);
+  }
+}
+
+@media (scripting: initial-only) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-scripting-external);
+  }
+}
+
+@media (scripting: enabled) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-scripting-external);
+  }
+}

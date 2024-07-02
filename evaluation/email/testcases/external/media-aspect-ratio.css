@@ -1,0 +1,5 @@
+@media (min-aspect-ratio: 1/1) {
+    td {
+      background-image: url(https://example.com/XPLACEHOLDERX/media-aspect-ratio-external);
+    }
+  }

@@ -1,0 +1,233 @@
+<head>
+    <script type="text/javascript">
+
+        function xoshiro128ss(a, b, c, d) {
+            return function () {
+                var t = b << 9, r = b * 5; r = (r << 7 | r >>> 25) * 9;
+                c ^= a; d ^= b;
+                b ^= c; a ^= d; c ^= t;
+                d = d << 11 | d >>> 21;
+                return (r >>> 0);// / 4294967296;
+            }
+        }
+
+        rnd = xoshiro128ss(1, 2, 3, 4);
+
+        const MAX_EXPR = 3;
+        const MAX_PRODUCT = 3;
+        const MAX_NESTING = 2;
+
+        function maybe(s) {
+            return (rnd() % 2 == 0) ? s : "";
+        }
+
+        function choice(arr) {
+            return arr[rnd() % arr.length];
+        }
+
+        function wchoice(arr) {
+            var total = 0;
+            for (let a of arr) total += a[0];
+            var sel = rnd() % total;
+            total = 0;
+            for (let a of arr) {
+                if (sel >= total && sel < total + a[0]) return a[1];
+                total += a[0];
+            }
+            return arr[arr.length - 1][1];
+        }
+
+        //   <calc-product> [ [ '+' | '-' ] <calc-product> ]*  
+
+        function calc_expr(level) {
+            if (level > MAX_NESTING) return calc_number(level);
+
+            var out = calc_product(level);
+            for (var i = 0; i < rnd() % MAX_EXPR; i++) {
+                out += choice([" + ", " - "]) + calc_product(level);
+            }
+            return out;
+        }
+
+
+        // <calc-product> = 
+        //   <calc-value> [ [ '*' | '/' ] <calc-value> ]*  
+
+        function calc_product(level) {
+            out = calc_value(level);
+            for (var i = 0; i < rnd() % MAX_PRODUCT; i++) {
+                out += choice([" * ", " / "]) + calc_value(level);
+            }
+            return out;
+        }
+
+
+        function calc_value(level) {
+            return choice([calc_number(level), calc_dimension(level), calc_percentage(level), calc_keyword(level), calc_function(level), " ( " + calc_expr(level + 1) + " ) "]);
+            // TODO: calc-sum
+        }
+
+        function calc_number(level) {
+            var res = 100000 * (rnd() / rnd());
+            if (rnd() % 10 == 0) res *= -1;
+            return res;
+        }
+
+        function calc_dimension(level) {
+            return calc_number(level); // + choice(["em", "ex", "cap", "ch", "ic", "rem", "lh", "rlh", "vw", "vh", "vi", "vb", "vmin", "vmax", "px", "pt"]);
+        }
+
+        function calc_percentage(level) {
+            return rnd() / 4294967296; //+ "%";
+        }
+
+        function calc_keyword(level) {
+            return wchoice([[40, " e "], [40, " pi "], [2, "infinity"], [2, "-infinity"], [1, "NaN"]]);
+        }
+
+        function calc_function(level) {
+            return wchoice([[6, calc_function_1(level)], [1, calc_function_2(level)]]);
+        }
+
+        function calc_function_1(level) {
+            return " " + choice(["sin", "cos", "tan"/*, "asin", "acos", "atan"*/]) + "( " + calc_expr(level + 1) + " ) ";
+        }
+
+        function calc_function_2(level) {
+            return calc_expr(level + 1); // + choice(["atan2"]) + "( " + calc_expr(level + 1) + ", " + calc_expr(level + 1) + " ) ";
+        }
+
+
+        /*
+        
+        
+        <calc-value> = 
+          <number>        |
+          <dimension>     |
+          <percentage>    |
+          <calc-keyword>  |
+          ( <calc-sum> )  
+        
+        <calc-keyword> = 
+          e          |
+          pi         |
+          infinity   |
+          -infinity  |
+          NaN        */
+
+    </script>
+
+    <style>
+        #test {
+            container-type: inline-size;
+            width: 123px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <label for="hostname">Hostname:</label><br>
+        <input type="text" id="hostname" name="hostname"><br>
+
+        <label for="os">Operating System:</label><br>
+        <select id="os" name="os">
+            <option value="windows">Windows</option>
+            <option value="macos">macOS</option>
+            <option value="linux">Linux</option>
+            <option value="chromeos">ChromeOS</option>
+            <option value="android">Android</option>
+            <option value="ios">iOS</option>
+        </select><br>
+
+        <label for="browser">Browser:</label><br>
+        <select id="browser" name="browser">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="edge">Edge</option>
+            <option value="tor">Tor</option>
+            <option value="brave">Brave</option>
+            <option value="opera">Opera</option>
+            <option value="ghostery">Ghostery</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <label for="browserRelease">Browser Release:</label><br>
+        <input type="text" id="browserRelease" name="browserRelease"><br>
+
+        <!-- <label for="runs">Runs:</label><br>
+        <input type="text" id="runs" name="runs" value="100"><br> -->
+
+        <button type="button" onclick="start()">Run</button>
+    </form>
+
+    <progress id="prog" value="0" max="0">0%</progress><br />
+
+    <div id="stat"></div>
+
+    <div id="test"><span id="cont">a</span></div>
+    <script>
+        var invalid = "1234.5px"
+        var runs = 10000;
+        var rem_runs;
+        var invalid_runs = 0, zero_runs = 0;
+
+        var p = document.getElementById("prog");
+
+        async function fuzz_run(split) {
+            var res = []
+            for (var i = 0; i < split; i++) {
+                var e = calc_expr(0);
+                //     console.log(e);
+                document.getElementById("test").style.width = invalid;
+                document.getElementById("test").style.width = "calc(1px * (" + e + "))";
+                var computed = getComputedStyle(document.getElementById("test")).width;
+                if (computed != invalid) {
+                    if (computed == "0px") zero_runs++;
+                    console.log(computed + " <- " + e);
+                    res.push({ "expression": e, "result": computed });
+                } else {
+                    console.log(" I N V A L I D ");
+                    console.log(e);
+                    console.log("---------------");
+                    invalid_runs++;
+                }
+
+                p.value += 1;
+            }
+
+            let meta = {
+                'experiment': 'calc',
+                'host': document.getElementById('hostname').value,
+                'os': document.getElementById('os').value,
+                'browser': document.getElementById('browser').value,
+                'release': document.getElementById('browserRelease').value,
+                // 'runs': document.getElementById('runs').value
+            };
+
+            await fetch('/report/full?' + new URLSearchParams(meta), { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(res) });
+            if (rem_runs > split) {
+                rem_runs -= split;
+                // window.setTimeout(function () { fuzz_run(split); }, 0);
+            } else {
+                document.getElementById("stat").innerHTML = "Invalid runs: " + (invalid_runs * 100 / runs) + "%<br/>Zero runs: " + (zero_runs * 100 / runs) + "%";
+                console.log("Invalid runs: " + (invalid_runs * 100 / runs) + "%");
+                console.log("Zero runs: " + (zero_runs * 100 / runs) + "%");
+            }
+        }
+
+        function start() {
+            // runs = parseInt(document.getElementById("runs").value);
+            p.max = runs;
+            p.innerText = "0%";
+            invalid_runs = 0, zero_runs = 0;
+            rem_runs = runs;
+            rnd = xoshiro128ss(1, 2, 3, 4);
+
+            window.setTimeout(function () { fuzz_run(10000); }, 0);
+
+        }
+
+    </script>
+</body>

@@ -1,0 +1,3 @@
+td {
+  background-image: -webkit-image-set(url(https://example.com/XPLACEHOLDERX/image-set-dpi-external) 1x, url(https://example.com/XPLACEHOLDERX/image-set-dpi-external) 2x, url(https://example.com/XPLACEHOLDERX/image-set-dpi-external) 3x);
+}

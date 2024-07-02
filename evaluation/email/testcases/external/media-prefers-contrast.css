@@ -1,0 +1,20 @@
+@media (prefers-contrast: no-preference) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-prefers-contrast-external);
+  }
+}
+@media (prefers-contrast: more) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-prefers-contrast-external);
+  }
+}
+@media (prefers-contrast: less) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-prefers-contrast-external);
+  }
+}
+@media (prefers-contrast: custom) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-prefers-contrast-external);
+  }
+}

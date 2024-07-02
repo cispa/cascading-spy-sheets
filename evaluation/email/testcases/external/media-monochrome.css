@@ -1,0 +1,10 @@
+@media (monochrome) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-monochrome-external);
+  }
+}
+@media (monochrome: 0) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-monochrome-external);
+  }
+}

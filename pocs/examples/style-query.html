@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #text-container {
+        font-family:  'Courier New', sans-serif;
+        container-type: inline-size;
+        width: 1ch;
+        color: red;
+        --custom-var: red;
+      }
+      @container style(--custom-var: red) {
+        #text-element {
+          color: green;
+          background-image: url(/leak.jpg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="text-container">
+      <p id="text-element">A</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+@supports (display: flex) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/supports-external);
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Style Finder",
+    "version": "1.0",
+    "description": "Find and log style tags before styles are applied.",
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "run_at": "document_start"
+        }
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}

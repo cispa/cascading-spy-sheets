@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      #container {
+        container-type: inline-size;
+        width: 20vw;
+        --theme: dark;
+      }
+      @container style(--theme: dark) and (width > 100px)  {
+        p {
+          background-color: black;
+          color: white;
+        }
+      }
+    </style>
+    <div id="container">
+      <p>Lorem!</p>
+    </div>
+  </body>
+</html>

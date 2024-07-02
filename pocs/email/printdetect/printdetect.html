@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <style>
+        #print {
+            display: none;
+        }
+        
+        @media print {
+            #print {
+                display: block;
+            }
+        }
+    </style>
+  </head>
+
+  <body>
+    <p>This is always visible.</p>
+    <p id="print">This is only visible upon print!</p>
+  </body>
+</html>

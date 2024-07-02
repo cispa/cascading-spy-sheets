@@ -1,0 +1,5 @@
+@media (min-device-height: 1px) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-device-height-external);
+  }
+}

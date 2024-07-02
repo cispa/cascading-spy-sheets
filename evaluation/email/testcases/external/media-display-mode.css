@@ -1,0 +1,28 @@
+@media (display-mode: fullscreen) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-display-mode-external);
+  }
+}
+
+@media (display-mode: standalone) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-display-mode-external);
+  }
+}
+
+@media (display-mode: minimal-ui) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-display-mode-external);
+  }
+}
+
+@media (display-mode: browser) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-display-mode-external);
+  }
+}
+@media (display-mode: window-controls-overlay) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-display-mode-external);
+  }
+}

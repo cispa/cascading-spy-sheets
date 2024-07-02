@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #wrapper {
+            width: fit-content;
+        }
+
+        #container {
+            container-type: inline-size;
+        }
+
+        @container (width > 400px) {
+            p {
+                background-color: orangered;
+            }
+        }
+    </style>
+    <div id="wrapper">
+        <div id="container">
+            <p>Lorem!</p>
+        </div>
+        <button></button>
+    </div>
+</body>
+
+</html>

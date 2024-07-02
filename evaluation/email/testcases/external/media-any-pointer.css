@@ -1,0 +1,15 @@
+@media (any-pointer: none) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-any-pointer-external);
+  }
+}
+@media (any-pointer: coarse) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-any-pointer-external);
+  }
+}
+@media (any-pointer: fine) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-any-pointer-external);
+  }
+}

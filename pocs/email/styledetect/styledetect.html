@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      #container {
+        container-type: inline-size;
+        width: 300px;
+      }
+
+      #icloud {
+        display: none;
+      }
+      #thunderbird {
+        display: block;
+      }
+
+      @container (width > 16.5px) {
+        #icloud {
+          display: block;
+        }
+        #thunderbird {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <p id="icloud">Apple iCloud Mail</p>
+      <p id="thunderbird">Thunderbird</p>
+    </div>
+  </body>
+</html>

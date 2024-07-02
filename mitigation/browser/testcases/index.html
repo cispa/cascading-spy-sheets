@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (max-width: 1200px) {
+            #one {
+                background-image: url(/one.jpg);
+            }
+        }
+        
+        @media screen and (min-width: 1200px) {
+            #one {
+                background-image: url(/two.jpg);
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="/external.css">
+</head>
+<body>
+    <div id="one">1</div>
+    <div id="two">2</div>
+    <div id="three" style="background-image: url(/five.jpg);">3</div>
+</body>
+</html>

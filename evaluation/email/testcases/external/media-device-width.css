@@ -1,0 +1,5 @@
+@media (min-device-width: 1px) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-device-width-external);
+  }
+}

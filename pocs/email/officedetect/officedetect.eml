@@ -1,0 +1,47 @@
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: Office Detection
+
+<html>
+
+<head>
+    <style>
+        #testcontainer {
+            container-type: inline-size;
+            font-family: 'Gill Sans MT', 'Gill Sans';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 11px;
+            width: 1cap;
+        }
+        
+        p {
+            color: red;
+        }
+        #yes {
+            display: none;
+        }
+
+        @container (max-width: 7.5px) {
+            p {
+                color: green;
+            }
+            #no {
+                display: none;
+            }
+            #yes {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="testcontainer">
+        <p id="yes">There is an Office installation! :)</p>
+        <p id="no">No Office :(</p>
+    </div>
+</body>
+
+</html>

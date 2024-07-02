@@ -1,0 +1,49 @@
+@import url("/style.css");
+
+@media screen and (max-width: 1200px) {
+  #two {
+    background-image: url(/three.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #two {
+    background-image: url(/four.jpg);
+  }
+}
+
+.example {
+  background-image: image-set(
+    "/image-1x.jpg" 1x,
+    "/image-2x.jpg" 2x,
+    "/image-3x.jpg" 3x
+  );
+}
+
+.example {
+  background-image: image-set(
+    "/image-1x.jpg" 1x,
+    "/image-2x.jpg" 2x,
+    "/image-3x.jpg" 3x
+  );
+}
+
+.example {
+  background-image: image-set(
+    url("image1.avif") type("image/avif"),
+    url("image2.jpg") type("image/jpeg")
+  );
+}
+
+.example {
+  background-image: image("/imagea.jpg", "fallbacka.jpg");
+}
+
+.example {
+  background-image: image("/imageb.jpg", "fallbackb.jpg");
+}
+
+@font-face {
+  font-family: "ExternalFont";
+  src: url("/font.woff");
+}

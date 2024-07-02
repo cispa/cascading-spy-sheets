@@ -1,0 +1,10 @@
+@media (video-dynamic-range: standard) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-video-dynamic-range-external);
+  }
+}
+@media (video-dynamic-range: high) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-video-dynamic-range-external);
+  }
+}

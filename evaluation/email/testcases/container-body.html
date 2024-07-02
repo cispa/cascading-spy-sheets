@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <style>
+    #testcontainer {
+      container-type: inline-size;
+      width: 50px;
+    }
+    @container (min-width: 20px) {
+      p {
+        background-image: url(https://example.com/XPLACEHOLDERX/container-head);
+      }
+    }
+  </style>
+  <div id="testcontainer">
+    <p>Lorem!</p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+@media (overflow-block: none) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-overflow-block-external);
+  }
+}
+@media (overflow-block: scroll) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-overflow-block-external);
+  }
+}
+@media (overflow-block: optional-paged) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-overflow-block-external);
+  }
+}
+@media (overflow-block: paged) {
+  td {
+    background-image: url(https://example.com/XPLACEHOLDERX/media-overflow-block-external);
+  }
+}
