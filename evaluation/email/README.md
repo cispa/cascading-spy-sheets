@@ -6,6 +6,11 @@ The supported features of the email clients can be found in `css-detection.csv`.
 `gen_supported_features.py` generates the table in `table.md` which showcases
 the relevant features for CSS-based fingerprinting.
 
+The table contains the columns `HTML`, `@media`, `Container` and `Supports`.
+`HTML` is the number of HTML tags supported and `@media` is the number of supported
+`@media` queries.
+Meanwhile, `Container` and `Supports` are a binary value indicating whether the `@container` and `@supports` CSS rules are supported.
+
 The tested clients are listed in `tested_clients.md`.
 
 ### Proxy Usage

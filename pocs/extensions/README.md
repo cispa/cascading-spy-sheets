@@ -1,5 +1,8 @@
 ## Extension Detection
 
+Each HTML file in this directory is a PoC for detecting a specific extension.
+All PoCs are blank if an extension is detected and show a message if the extension is not detected, apart from the Mozbar and NoScript PoCs which display a message if the extension is detected.
+
 List of extensions taken from the [https://github.com/plaperdr/fingerprinting-in-style](artifact) of the paper ["Fingerprinting in Style: Detecting Browser Extensions via Injected Style Sheets"](https://www.usenix.org/system/files/sec21-laperdrix.pdf) by Pierre Laperdrix, Oleksii Starov, Quan Chen, Alexandros Kapravelos and Nick Nikiforakis.
 
 | Extension                                 | Extension ID                                                                                                                             |
