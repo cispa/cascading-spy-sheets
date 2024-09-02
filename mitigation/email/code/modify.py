@@ -10,7 +10,22 @@ from css_inline import inline
 from filetype import guess_mime
 from requests import get
 
+
+# source: https://svn.blender.org/svnroot/bf-blender/trunk/blender/build_files/scons/tools/bcolors.py
+class bcolors:
+    HEADER = "\033[95m"
+    OKBLUE = "\033[94m"
+    OKCYAN = "\033[96m"
+    OKGREEN = "\033[92m"
+    WARNING = "\033[93m"
+    FAIL = "\033[91m"
+    ENDC = "\033[0m"
+    BOLD = "\033[1m"
+    UNDERLINE = "\033[4m"
+
+
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
+DEBUG = False
 
 
 @dataclass
@@ -23,9 +38,13 @@ class DataURL:
 
 
 def fetch_data_url(url: str) -> DataURL:
+    if DEBUG:
+        print(f"    [.] Fetching {url}")
     try:
-        data = get(url, headers={"User-Agent": USER_AGENT}).content
+        data = get(url, headers={"User-Agent": USER_AGENT}, timeout=5).content
     except:
+        if DEBUG:
+            print(f"{bcolors.WARNING}    [!] Error fetching {url}{bcolors.ENDC}")
         return DataURL("text/plain", "error")
     with TemporaryFile() as file:
         file.write(data)
@@ -35,32 +54,31 @@ def fetch_data_url(url: str) -> DataURL:
 
 
 def replace_images(html: str) -> str:
-   soup = BeautifulSoup(html, "html.parser")
-   for element in soup.descendants:
-       if element.name is not None:
-           # print(element)
-           # src attributes
-           if "src" in element.attrs:
-               # print(element.attrs["src"])
-               if element.attrs["src"].startswith("data:"):
-                   continue
-               data = fetch_data_url(element.attrs["src"])
-               element.attrs["src"] = str(data)
-           # background images
-           if "style" in element.attrs:
-               style = parseStyle(element.attrs["style"])
-               if "background-image" not in style:
-                   continue
-               url = style['background-image']
-               url = url.replace('url(', '').replace(')', '')
-               data = fetch_data_url(url)
-               style['background-image'] = f"url({str(data)})"
-               element.attrs['style'] = style.getCssText("")
-   return str(soup)
+    soup = BeautifulSoup(html, "html.parser")
+    for element in soup.descendants:
+        if element.name is not None:
+            # src attributes
+            if "src" in element.attrs:
+                if element.attrs["src"].startswith("data:"):
+                    continue
+                data = fetch_data_url(element.attrs["src"])
+                element.attrs["src"] = str(data)
+            # background images
+            if "style" in element.attrs:
+                style = parseStyle(element.attrs["style"])
+                if "background-image" not in style:
+                    continue
+                url = style["background-image"]
+                url = url.replace("url(", "").replace(")", "")
+                data = fetch_data_url(url)
+                style["background-image"] = f"url({str(data)})"
+                element.attrs["style"] = style.getCssText("")
+    return str(soup)
 
 
 def remove_headers(inp: str) -> str:
-    content = inp.split("\n\n", 1)[-1]
+    # content = inp.split("\n\n", 1)[-1]
+    content = inp
     # decodestring does not work if the string is not "Quoted-Printable" encoded (not idempotent)
     if "=3D" in content:
         return decodestring(content.encode("utf-8")).decode()
@@ -83,18 +101,36 @@ def clean_html(html: str) -> str:
     return css_inlined_payload
 
 
+# partially inspired by: https://stackoverflow.com/a/50120512
+def modify_part(part: Message) -> Message:
+    if part.is_multipart():
+        for payload in part.get_payload():
+            modify_part(payload)
+    elif part.get_content_type() == "text/html":
+        charset = part.get_content_charset()
+        if charset is None or len(charset) == 0:
+            charsets = ["ascii", "utf-8"]
+        else:
+            charsets = [charset]
+        decoded_part = part.get_payload(decode=True)
+        decoded = False
+        for charset in charsets:
+            try:
+                decoded_part = decoded_part.decode(charset)
+                decoded = True
+                break
+            except:
+                pass
+        assert decoded, f"{bcolors.FAIL}Could not decode part{bcolors.ENDC}"
+        part.set_payload(clean_html(decoded_part).encode('utf-8'))
+        part.set_charset("utf-8")
+    return part
+
+
 def modify_email(email: Message) -> Message:
     try:
         for part in email.walk():
-            # payload is a list of strings if its a multipart, otherwise it's a string
-            if part.is_multipart():
-                for payload in part.get_payload():
-                    if payload.get_content_type() != "text/html":
-                        continue
-                    cleaned_payload = clean_html(payload.as_string())
-                    payload.set_payload(cleaned_payload)
-            elif part.get_content_type() == "text/html":
-                part.set_payload(clean_html(part.get_payload()))
-    except:
-        pass
+            modify_part(part)
+    except Exception as e:
+        print(f"{bcolors.FAIL}[!] Error modifying email: {e}{bcolors.ENDC}")
     return email
