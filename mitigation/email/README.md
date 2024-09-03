@@ -1,5 +1,11 @@
 ## Privacy Proxy
 
+**Warning:**
+This script loads all remote content in the emails you provide. This reveals your
+IP address to the servers of remote content included in the emails. If you distrust
+the sender of the emails, consider using a VPN and running the script in a virtual
+machine.
+
 ### Usage
 
 ```bash
