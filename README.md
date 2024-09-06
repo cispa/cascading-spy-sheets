@@ -4,6 +4,8 @@ This repository contains the artifact for our paper "Cascading Spy Sheets:
 Exploiting the Complexity of Modern CSS for Email and Browser Fingerprinting"
 published at NDSS 2025.
 
+The artifact is citable via the following DOI: [10.5281/zenodo.13712489](https://doi.org/10.5281/zenodo.13712489).
+
 We systematically investigate the modern dynamic features of CSS and their
 applicability for script-less fingerprinting, bypassing many state-of-the-art
 mitigations. This allows us to infer detailed application, OS, and hardware
